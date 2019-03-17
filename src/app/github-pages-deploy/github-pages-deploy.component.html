@@ -1,0 +1,28 @@
+<h1>Github pages deploy</h1>
+<div>
+    <p>Na tej stronie znajdują się informacje o tym, jak wykonać deploy aplikacji na <a href="https://pages.github.com/">Github Pages</a>.</p>
+</div>
+
+<div>
+  <p>0 - Upewnij się że masz na komputerze git o wersji wyższej niż 2.20</p>
+  <p>1 - Wejdź na GitHub i stwórz nowe, publiczne, repozytorium o nazwie twojaNazwaUzytkownika.github.io i upewnij się że posiada gałąź 'master'</p>
+  <p>2 - Sklonuj puste repozytorium na swój komputer</p>
+  <p>3 - Uruchom VS Code i wejdź w folder repozytorium.</p>
+  <p>4 - Stwórz nowy projekt w tym folderze komendą:</p>
+  <div>
+      <pre><code [highlight]="NpmCreateProjectCode"></code></pre>
+  </div>
+  <p>5 - Zainstaluj angular-cli-ghpages globalnie:</p>
+  <div>
+      <pre><code [highlight]="NpmGhPagesCode"></code></pre>
+  </div>
+  <p>6 - Wejdź do package.json i w "scripts" dodaj:</p>
+  <div>
+      <pre><code [highlight]="DeployJsonCode"></code></pre>
+  </div>
+  <p>7 - Uruchom komendę: </p>
+  <div>
+      <pre><code [highlight]="NpmRunDeployCode"></code></pre>
+  </div>
+  <p>8 - Wejdź na stronę https://twojaNazwaUzytkownika.github.io/nazwaAplikacji/ i podziwiaj wynik ;)</p>
+</div>
